@@ -1,0 +1,9 @@
+{
+  "columns": {
+    "id": { "required": true, "unique": true, "type": "integer", "min": 1 },
+    "name": { "required": true },
+    "quantity": { "required": true, "type": "integer", "min": 0 },
+    "date": { "type": "date" },
+    "status": { "enum": ["active", "archived"] }
+  }
+}
