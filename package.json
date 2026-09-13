@@ -1,0 +1,11 @@
+{
+  "name": "csv-checkmate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local CSV validation with configurable rules and readable reports.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "csv-checkmate": "src/cli.js" },
+  "scripts": { "test": "node --test", "demo": "node src/cli.js examples/valid.csv --schema examples/rules.json" }
+}
